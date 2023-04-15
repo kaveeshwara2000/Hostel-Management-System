@@ -11,11 +11,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="loginContext" prefHeight="632.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.Hibernate.controller.LoginFormController">
+<AnchorPane fx:id="loginContext" prefHeight="632.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.D24_hostel.controller.LoginFormController">
    <children>
       <ImageView fitHeight="661.0" fitWidth="988.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/lk/ijse/D24_hostel/view/assests/login.jpg" />
+            <Image url="@assests/login.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.27" contrast="-0.35" saturation="0.2" />
@@ -77,12 +77,12 @@
             </JFXPasswordField>
             <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="611.0" layoutY="126.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@/lk/ijse/D24_hostel/view/assests/Userl.png" />
+                  <Image url="@assests/Userl.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="38.0" fitWidth="33.0" layoutX="614.0" layoutY="188.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@/lk/ijse/D24_hostel/view/assests/padlocks.png" />
+                  <Image url="@assests/padlocks.png" />
                </image>
             </ImageView>
          </children>
