@@ -154,7 +154,7 @@ public class DashBoardController implements NavigationUtil {
 
         if (buttonType.get().equals(ButtonType.YES)) {
             Stage stage = (Stage) AdminDashBoardContext.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/LoginForm.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("lk/ijse/D24_hostel/view/LoginForm.fxml"))));
             stage.centerOnScreen();
         }
     }
@@ -168,7 +168,7 @@ public class DashBoardController implements NavigationUtil {
 
     public void DashboardOnAction(ActionEvent actionEvent) throws IOException {
         CloseWindowUi(AdminDashBoardContext);
-        Parent parent = FXMLLoader.load(getClass().getResource("../view/DashBoard.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("lk/ijse/D24_hostel/view/DashBoard.fxml"));
         Scene scene = new Scene(parent);
         Stage stage = new Stage();
         stage.setScene(scene);
@@ -195,7 +195,7 @@ public class DashBoardController implements NavigationUtil {
     @Override
     public void loadUi(String location) throws IOException {
         loardFormContext.getChildren().clear();
-        Parent parent = FXMLLoader.load(getClass().getResource("../view/"+location+".fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("lk/ijse/D24_hostel/view/"+location+".fxml"));
         loardFormContext.getChildren().add(parent);
     }
 

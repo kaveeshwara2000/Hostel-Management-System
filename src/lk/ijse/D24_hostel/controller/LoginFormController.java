@@ -33,7 +33,7 @@ public class LoginFormController {
             if(userDTO.getUsername().equals(txtUserName.getText()) && userDTO.getPassword().equals(pwdPassword.getText())){
 
                 Stage stage=(Stage) loginContext.getScene().getWindow();
-                stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/DashBoard.fxml"))));
+                stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("lk/ijse/D24_hostel/view/DashBoard.fxml"))));
                 stage.centerOnScreen();
 
             }else{
